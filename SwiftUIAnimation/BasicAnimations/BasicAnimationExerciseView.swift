@@ -37,7 +37,7 @@ struct BasicAnimationExerciseView: View {
     
     @ViewBuilder
     func FourRectangleAnimation() -> some View {
-        var offsetValue: CGFloat = 200
+        let offsetValue: CGFloat = 200
         
         VStack(spacing: 20) {
             Spacer()
