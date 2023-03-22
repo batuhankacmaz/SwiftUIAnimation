@@ -15,7 +15,8 @@ struct BasicAnimationExerciseView: View {
                 Circle()
                     .foregroundColor(.orange)
                     .frame(width: 100, height: 100)
-                    .offset(x: change ? geometry.size.width - 100 : 0, y: change ? geometry.size.height - 100 : 0 )
+                    // .offset(x: change ? geometry.size.width - 100 : 0, y: change ? geometry.size.height - 100 : 0 )
+                    .offset(x: (geometry.size.width - 100) / 2 , y: change ? geometry.size.height - 100: 0)
                     .animation(Animation.easeInOut, value: change)
             }
             .padding()
