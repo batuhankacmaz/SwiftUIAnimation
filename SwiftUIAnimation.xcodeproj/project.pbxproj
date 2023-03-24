@@ -13,6 +13,7 @@
 		C5150D8829CBADB100A3F39F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5150D8729CBADB100A3F39F /* Preview Assets.xcassets */; };
 		C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D8F29CBAE9E00A3F39F /* BasicAnimationExerciseView.swift */; };
 		C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9129CBC25100A3F39F /* BasicAnimationLogin.swift */; };
+		C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9329CDECC600A3F39F /* BasicAnimationShowMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C5150D8729CBADB100A3F39F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5150D8F29CBAE9E00A3F39F /* BasicAnimationExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationExerciseView.swift; sourceTree = "<group>"; };
 		C5150D9129CBC25100A3F39F /* BasicAnimationLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationLogin.swift; sourceTree = "<group>"; };
+		C5150D9329CDECC600A3F39F /* BasicAnimationShowMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationShowMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				C5150D8F29CBAE9E00A3F39F /* BasicAnimationExerciseView.swift */,
 				C5150D9129CBC25100A3F39F /* BasicAnimationLogin.swift */,
+				C5150D9329CDECC600A3F39F /* BasicAnimationShowMenu.swift */,
 			);
 			path = BasicAnimations;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */,
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
+				C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */,
 				C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
