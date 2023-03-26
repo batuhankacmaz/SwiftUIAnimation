@@ -19,6 +19,8 @@
 		C5150D9B29D0E21A00A3F39F /* TriggerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9A29D0E21A00A3F39F /* TriggerSlider.swift */; };
 		C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9C29D0E55100A3F39F /* TriggerStepper.swift */; };
 		C5150D9F29D0EB5D00A3F39F /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */; };
+		C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */; };
+		C5150DA329D0EF5C00A3F39F /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		C5150D9A29D0E21A00A3F39F /* TriggerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSlider.swift; sourceTree = "<group>"; };
 		C5150D9C29D0E55100A3F39F /* TriggerStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerStepper.swift; sourceTree = "<group>"; };
 		C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
+		C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
+		C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				C5150D9A29D0E21A00A3F39F /* TriggerSlider.swift */,
 				C5150D9C29D0E55100A3F39F /* TriggerStepper.swift */,
 				C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */,
+				C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */,
+				C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */,
 			);
 			path = AnimationTriggers;
 			sourceTree = "<group>";
@@ -178,8 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */,
+				C5150DA329D0EF5C00A3F39F /* TriggerOnDisappear.swift in Sources */,
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
+				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
 				C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */,
