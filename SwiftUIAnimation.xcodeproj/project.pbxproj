@@ -26,6 +26,7 @@
 		C5150DA929D0FD0B00A3F39F /* TriggerGestureTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */; };
 		C5150DAB29D0FE0F00A3F39F /* TriggerGestureMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */; };
 		C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */; };
+		C5150DAF29D101B300A3F39F /* TriggerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DAE29D101B300A3F39F /* TriggerScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureTap.swift; sourceTree = "<group>"; };
 		C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureMagnification.swift; sourceTree = "<group>"; };
 		C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureRotation.swift; sourceTree = "<group>"; };
+		C5150DAE29D101B300A3F39F /* TriggerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */,
 				C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */,
 				C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */,
+				C5150DAE29D101B300A3F39F /* TriggerScrollView.swift */,
 			);
 			path = AnimationTriggers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */,
 				C5150D9B29D0E21A00A3F39F /* TriggerSlider.swift in Sources */,
 				C5150DA929D0FD0B00A3F39F /* TriggerGestureTap.swift in Sources */,
+				C5150DAF29D101B300A3F39F /* TriggerScrollView.swift in Sources */,
 				C5150D9929D0DE7C00A3F39F /* TriggerSegmentedControl.swift in Sources */,
 				C5150D9F29D0EB5D00A3F39F /* TriggerToggle.swift in Sources */,
 				C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */,
