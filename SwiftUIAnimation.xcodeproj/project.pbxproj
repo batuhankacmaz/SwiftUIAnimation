@@ -21,6 +21,11 @@
 		C5150D9F29D0EB5D00A3F39F /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */; };
 		C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */; };
 		C5150DA329D0EF5C00A3F39F /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */; };
+		C5150DA529D0FA2500A3F39F /* TriggerGesturesDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA429D0FA2500A3F39F /* TriggerGesturesDrag.swift */; };
+		C5150DA729D0FC5400A3F39F /* TriggerGestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA629D0FC5400A3F39F /* TriggerGestureLongPress.swift */; };
+		C5150DA929D0FD0B00A3F39F /* TriggerGestureTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */; };
+		C5150DAB29D0FE0F00A3F39F /* TriggerGestureMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */; };
+		C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
 		C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
 		C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
+		C5150DA429D0FA2500A3F39F /* TriggerGesturesDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGesturesDrag.swift; sourceTree = "<group>"; };
+		C5150DA629D0FC5400A3F39F /* TriggerGestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureLongPress.swift; sourceTree = "<group>"; };
+		C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureTap.swift; sourceTree = "<group>"; };
+		C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureMagnification.swift; sourceTree = "<group>"; };
+		C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				C5150D9E29D0EB5D00A3F39F /* TriggerToggle.swift */,
 				C5150DA029D0EE6F00A3F39F /* TriggerOnAppear.swift */,
 				C5150DA229D0EF5C00A3F39F /* TriggerOnDisappear.swift */,
+				C5150DA429D0FA2500A3F39F /* TriggerGesturesDrag.swift */,
+				C5150DA629D0FC5400A3F39F /* TriggerGestureLongPress.swift */,
+				C5150DA829D0FD0B00A3F39F /* TriggerGestureTap.swift */,
+				C5150DAA29D0FE0F00A3F39F /* TriggerGestureMagnification.swift */,
+				C5150DAC29D0FFB900A3F39F /* TriggerGestureRotation.swift */,
 			);
 			path = AnimationTriggers;
 			sourceTree = "<group>";
@@ -189,11 +204,16 @@
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
+				C5150DA529D0FA2500A3F39F /* TriggerGesturesDrag.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
+				C5150DAB29D0FE0F00A3F39F /* TriggerGestureMagnification.swift in Sources */,
 				C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */,
 				C5150D9B29D0E21A00A3F39F /* TriggerSlider.swift in Sources */,
+				C5150DA929D0FD0B00A3F39F /* TriggerGestureTap.swift in Sources */,
 				C5150D9929D0DE7C00A3F39F /* TriggerSegmentedControl.swift in Sources */,
 				C5150D9F29D0EB5D00A3F39F /* TriggerToggle.swift in Sources */,
+				C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */,
+				C5150DA729D0FC5400A3F39F /* TriggerGestureLongPress.swift in Sources */,
 				C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
