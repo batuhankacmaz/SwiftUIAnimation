@@ -15,6 +15,7 @@
 		C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9129CBC25100A3F39F /* BasicAnimationLogin.swift */; };
 		C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9329CDECC600A3F39F /* BasicAnimationShowMenu.swift */; };
 		C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9629D0D84E00A3F39F /* TriggerButton.swift */; };
+		C5150D9929D0DE7C00A3F39F /* TriggerSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D9829D0DE7C00A3F39F /* TriggerSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C5150D9129CBC25100A3F39F /* BasicAnimationLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationLogin.swift; sourceTree = "<group>"; };
 		C5150D9329CDECC600A3F39F /* BasicAnimationShowMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationShowMenu.swift; sourceTree = "<group>"; };
 		C5150D9629D0D84E00A3F39F /* TriggerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerButton.swift; sourceTree = "<group>"; };
+		C5150D9829D0DE7C00A3F39F /* TriggerSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C5150D9629D0D84E00A3F39F /* TriggerButton.swift */,
+				C5150D9829D0DE7C00A3F39F /* TriggerSegmentedControl.swift */,
 			);
 			path = AnimationTriggers;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
 				C5150D9429CDECC600A3F39F /* BasicAnimationShowMenu.swift in Sources */,
+				C5150D9929D0DE7C00A3F39F /* TriggerSegmentedControl.swift in Sources */,
 				C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
