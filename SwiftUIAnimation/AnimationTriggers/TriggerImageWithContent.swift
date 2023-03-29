@@ -44,10 +44,8 @@ struct TriggerImageWithContent: View {
             .gesture(DragGesture()
                 .updating($textViewOffset, body: { value, textViewOffset, transaction in
                     
-                    if value.location.x < 10 {
-                        textViewOffset = value.translation
-                    }
-                   
+                    
+                    textViewOffset.height = value.translation.height
                     
                     
                 })
