@@ -38,6 +38,8 @@
 		C53C090C29D5C80C00150AA4 /* AnimationTurningOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */; };
 		C53C090E29D5CBA700150AA4 /* LoginWithLocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */; };
 		C53C091129D5CD1700150AA4 /* DIN Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53C091029D5CD1700150AA4 /* DIN Condensed Bold.ttf */; };
+		C53C091429D5E0F000150AA4 /* ScrollableToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C091329D5E0F000150AA4 /* ScrollableToolbar.swift */; };
+		C53C091629D6190800150AA4 /* WelcomeWithRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C091529D6190800150AA4 /* WelcomeWithRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithLocked.swift; sourceTree = "<group>"; };
 		C53C091029D5CD1700150AA4 /* DIN Condensed Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Condensed Bold.ttf"; sourceTree = "<group>"; };
 		C53C091229D5CD8900150AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C53C091329D5E0F000150AA4 /* ScrollableToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableToolbar.swift; sourceTree = "<group>"; };
+		C53C091529D6190800150AA4 /* WelcomeWithRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWithRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */,
 				C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */,
 				C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */,
+				C53C091329D5E0F000150AA4 /* ScrollableToolbar.swift */,
+				C53C091529D6190800150AA4 /* WelcomeWithRotation.swift */,
 			);
 			path = AnimationOptions;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53C091629D6190800150AA4 /* WelcomeWithRotation.swift in Sources */,
 				C53C090029D56EF300150AA4 /* AnimationDuration.swift in Sources */,
 				C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */,
 				C53C090A29D5C6A500150AA4 /* AnimationSpeed.swift in Sources */,
@@ -276,6 +283,7 @@
 				C5150DA929D0FD0B00A3F39F /* TriggerGestureTap.swift in Sources */,
 				C5150DAF29D101B300A3F39F /* TriggerScrollView.swift in Sources */,
 				C5150D9929D0DE7C00A3F39F /* TriggerSegmentedControl.swift in Sources */,
+				C53C091429D5E0F000150AA4 /* ScrollableToolbar.swift in Sources */,
 				C5150D9F29D0EB5D00A3F39F /* TriggerToggle.swift in Sources */,
 				C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */,
 				C5150DA729D0FC5400A3F39F /* TriggerGestureLongPress.swift in Sources */,
