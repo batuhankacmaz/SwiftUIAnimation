@@ -34,6 +34,8 @@
 		C53C090429D5930B00150AA4 /* RepeatingReversingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */; };
 		C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090529D59CF400150AA4 /* AnimationScope.swift */; };
 		C53C090829D5B23900150AA4 /* AnimationScopeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */; };
+		C53C090A29D5C6A500150AA4 /* AnimationSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */; };
+		C53C090C29D5C80C00150AA4 /* AnimationTurningOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingReversingAnimations.swift; sourceTree = "<group>"; };
 		C53C090529D59CF400150AA4 /* AnimationScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope.swift; sourceTree = "<group>"; };
 		C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScopeWithAnimation.swift; sourceTree = "<group>"; };
+		C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpeed.swift; sourceTree = "<group>"; };
+		C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTurningOnOff.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 				C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */,
 				C53C090529D59CF400150AA4 /* AnimationScope.swift */,
 				C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */,
+				C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */,
+				C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */,
 			);
 			path = AnimationOptions;
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			files = (
 				C53C090029D56EF300150AA4 /* AnimationDuration.swift in Sources */,
 				C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */,
+				C53C090A29D5C6A500150AA4 /* AnimationSpeed.swift in Sources */,
 				C5150DB129D183FD00A3F39F /* TriggerPopup.swift in Sources */,
 				C5150DB329D194B200A3F39F /* TriggerImageWithContent.swift in Sources */,
 				C53C090229D57A5500150AA4 /* DelayAnimations.swift in Sources */,
@@ -239,6 +246,7 @@
 				C53C090829D5B23900150AA4 /* AnimationScopeWithAnimation.swift in Sources */,
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
+				C53C090C29D5C80C00150AA4 /* AnimationTurningOnOff.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
