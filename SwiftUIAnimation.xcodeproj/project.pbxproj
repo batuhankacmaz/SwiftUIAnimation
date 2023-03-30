@@ -36,6 +36,8 @@
 		C53C090829D5B23900150AA4 /* AnimationScopeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */; };
 		C53C090A29D5C6A500150AA4 /* AnimationSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */; };
 		C53C090C29D5C80C00150AA4 /* AnimationTurningOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */; };
+		C53C090E29D5CBA700150AA4 /* LoginWithLocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */; };
+		C53C091129D5CD1700150AA4 /* DIN Condensed Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C53C091029D5CD1700150AA4 /* DIN Condensed Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,9 @@
 		C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScopeWithAnimation.swift; sourceTree = "<group>"; };
 		C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSpeed.swift; sourceTree = "<group>"; };
 		C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTurningOnOff.swift; sourceTree = "<group>"; };
+		C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithLocked.swift; sourceTree = "<group>"; };
+		C53C091029D5CD1700150AA4 /* DIN Condensed Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Condensed Bold.ttf"; sourceTree = "<group>"; };
+		C53C091229D5CD8900150AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +106,13 @@
 		C5150D7F29CBADB000A3F39F /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C53C091229D5CD8900150AA4 /* Info.plist */,
 				C5150D8E29CBAE5800A3F39F /* BasicAnimations */,
 				C5150D9529CDF68F00A3F39F /* AnimationTriggers */,
 				C53C08FE29D56EA400150AA4 /* AnimationOptions */,
 				C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */,
 				C5150D8229CBADB000A3F39F /* ContentView.swift */,
-				C5150D8429CBADB100A3F39F /* Assets.xcassets */,
+				C53C090F29D5CCCF00150AA4 /* Assets */,
 				C5150D8629CBADB100A3F39F /* Preview Content */,
 			);
 			path = SwiftUIAnimation;
@@ -162,8 +168,18 @@
 				C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */,
 				C53C090929D5C6A500150AA4 /* AnimationSpeed.swift */,
 				C53C090B29D5C80C00150AA4 /* AnimationTurningOnOff.swift */,
+				C53C090D29D5CBA700150AA4 /* LoginWithLocked.swift */,
 			);
 			path = AnimationOptions;
+			sourceTree = "<group>";
+		};
+		C53C090F29D5CCCF00150AA4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C53C091029D5CD1700150AA4 /* DIN Condensed Bold.ttf */,
+				C5150D8429CBADB100A3F39F /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +242,7 @@
 			files = (
 				C5150D8829CBADB100A3F39F /* Preview Assets.xcassets in Resources */,
 				C5150D8529CBADB100A3F39F /* Assets.xcassets in Resources */,
+				C53C091129D5CD1700150AA4 /* DIN Condensed Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +264,7 @@
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
 				C53C090C29D5C80C00150AA4 /* AnimationTurningOnOff.swift in Sources */,
+				C53C090E29D5CBA700150AA4 /* LoginWithLocked.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
@@ -394,6 +412,7 @@
 				DEVELOPMENT_TEAM = 7W7XN25TWT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +443,7 @@
 				DEVELOPMENT_TEAM = 7W7XN25TWT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
