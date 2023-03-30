@@ -33,6 +33,7 @@
 		C53C090229D57A5500150AA4 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090129D57A5500150AA4 /* DelayAnimations.swift */; };
 		C53C090429D5930B00150AA4 /* RepeatingReversingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */; };
 		C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090529D59CF400150AA4 /* AnimationScope.swift */; };
+		C53C090829D5B23900150AA4 /* AnimationScopeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		C53C090129D57A5500150AA4 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
 		C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingReversingAnimations.swift; sourceTree = "<group>"; };
 		C53C090529D59CF400150AA4 /* AnimationScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope.swift; sourceTree = "<group>"; };
+		C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScopeWithAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				C53C090129D57A5500150AA4 /* DelayAnimations.swift */,
 				C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */,
 				C53C090529D59CF400150AA4 /* AnimationScope.swift */,
+				C53C090729D5B23900150AA4 /* AnimationScopeWithAnimation.swift */,
 			);
 			path = AnimationOptions;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				C5150DB329D194B200A3F39F /* TriggerImageWithContent.swift in Sources */,
 				C53C090229D57A5500150AA4 /* DelayAnimations.swift in Sources */,
 				C5150DA329D0EF5C00A3F39F /* TriggerOnDisappear.swift in Sources */,
+				C53C090829D5B23900150AA4 /* AnimationScopeWithAnimation.swift in Sources */,
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
