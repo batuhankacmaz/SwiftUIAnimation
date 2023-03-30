@@ -31,6 +31,8 @@
 		C5150DB329D194B200A3F39F /* TriggerImageWithContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150DB229D194B200A3F39F /* TriggerImageWithContent.swift */; };
 		C53C090029D56EF300150AA4 /* AnimationDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C08FF29D56EF300150AA4 /* AnimationDuration.swift */; };
 		C53C090229D57A5500150AA4 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090129D57A5500150AA4 /* DelayAnimations.swift */; };
+		C53C090429D5930B00150AA4 /* RepeatingReversingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */; };
+		C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C090529D59CF400150AA4 /* AnimationScope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		C5150DB229D194B200A3F39F /* TriggerImageWithContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerImageWithContent.swift; sourceTree = "<group>"; };
 		C53C08FF29D56EF300150AA4 /* AnimationDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDuration.swift; sourceTree = "<group>"; };
 		C53C090129D57A5500150AA4 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
+		C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingReversingAnimations.swift; sourceTree = "<group>"; };
+		C53C090529D59CF400150AA4 /* AnimationScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			children = (
 				C53C08FF29D56EF300150AA4 /* AnimationDuration.swift */,
 				C53C090129D57A5500150AA4 /* DelayAnimations.swift */,
+				C53C090329D5930B00150AA4 /* RepeatingReversingAnimations.swift */,
+				C53C090529D59CF400150AA4 /* AnimationScope.swift */,
 			);
 			path = AnimationOptions;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */,
 				C5150D9729D0D84E00A3F39F /* TriggerButton.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
+				C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
 				C5150DA529D0FA2500A3F39F /* TriggerGesturesDrag.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
@@ -243,6 +250,7 @@
 				C5150DAD29D0FFB900A3F39F /* TriggerGestureRotation.swift in Sources */,
 				C5150DA729D0FC5400A3F39F /* TriggerGestureLongPress.swift in Sources */,
 				C5150D9229CBC25100A3F39F /* BasicAnimationLogin.swift in Sources */,
+				C53C090429D5930B00150AA4 /* RepeatingReversingAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
