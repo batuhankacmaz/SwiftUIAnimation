@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C500D65C29DDAFB20067D8D5 /* IntroSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */; };
+		C500D66029DDC4340067D8D5 /* InterpolatingSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C500D65F29DDC4340067D8D5 /* InterpolatingSpringAnimation.swift */; };
 		C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */; };
 		C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D8229CBADB000A3F39F /* ContentView.swift */; };
 		C5150D8529CBADB100A3F39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5150D8429CBADB100A3F39F /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSpringAnimation.swift; sourceTree = "<group>"; };
+		C500D65F29DDC4340067D8D5 /* InterpolatingSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingSpringAnimation.swift; sourceTree = "<group>"; };
 		C5150D7D29CBADB000A3F39F /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		C5150D8229CBADB000A3F39F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */,
+				C500D65F29DDC4340067D8D5 /* InterpolatingSpringAnimation.swift */,
 			);
 			path = SpringAnimations;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				C53C090E29D5CBA700150AA4 /* LoginWithLocked.swift in Sources */,
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */,
+				C500D66029DDC4340067D8D5 /* InterpolatingSpringAnimation.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
 				C5150DA529D0FA2500A3F39F /* TriggerGesturesDrag.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
