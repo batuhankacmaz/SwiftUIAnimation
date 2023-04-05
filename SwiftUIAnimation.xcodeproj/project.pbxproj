@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C500D65C29DDAFB20067D8D5 /* IntroSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */; };
 		C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */; };
 		C5150D8329CBADB000A3F39F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5150D8229CBADB000A3F39F /* ContentView.swift */; };
 		C5150D8529CBADB100A3F39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5150D8429CBADB100A3F39F /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSpringAnimation.swift; sourceTree = "<group>"; };
 		C5150D7D29CBADB000A3F39F /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		C5150D8229CBADB000A3F39F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C500D65A29DDAF0E0067D8D5 /* SpringAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				C500D65B29DDAFB20067D8D5 /* IntroSpringAnimation.swift */,
+			);
+			path = SpringAnimations;
+			sourceTree = "<group>";
+		};
 		C5150D7429CBADB000A3F39F = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 				C5150D8E29CBAE5800A3F39F /* BasicAnimations */,
 				C5150D9529CDF68F00A3F39F /* AnimationTriggers */,
 				C53C08FE29D56EA400150AA4 /* AnimationOptions */,
+				C500D65A29DDAF0E0067D8D5 /* SpringAnimations */,
 				C5150D8029CBADB000A3F39F /* SwiftUIAnimationApp.swift */,
 				C5150D8229CBADB000A3F39F /* ContentView.swift */,
 				C53C090F29D5CCCF00150AA4 /* Assets */,
@@ -264,6 +275,7 @@
 				C5150D9029CBAE9E00A3F39F /* BasicAnimationExerciseView.swift in Sources */,
 				C53C090A29D5C6A500150AA4 /* AnimationSpeed.swift in Sources */,
 				C5150DB129D183FD00A3F39F /* TriggerPopup.swift in Sources */,
+				C500D65C29DDAFB20067D8D5 /* IntroSpringAnimation.swift in Sources */,
 				C5150DB329D194B200A3F39F /* TriggerImageWithContent.swift in Sources */,
 				C53C090229D57A5500150AA4 /* DelayAnimations.swift in Sources */,
 				C5150DA329D0EF5C00A3F39F /* TriggerOnDisappear.swift in Sources */,
