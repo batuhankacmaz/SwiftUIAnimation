@@ -43,6 +43,7 @@
 		C53C091429D5E0F000150AA4 /* ScrollableToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C091329D5E0F000150AA4 /* ScrollableToolbar.swift */; };
 		C53C091629D6190800150AA4 /* WelcomeWithRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53C091529D6190800150AA4 /* WelcomeWithRotation.swift */; };
 		C5A4AC0B29DF2B1E0027E0E3 /* SpringOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A4AC0A29DF2B1E0027E0E3 /* SpringOptions.swift */; };
+		C5B2DB4729E8694D00A63AE9 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B2DB4629E8694D00A63AE9 /* String-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		C53C091329D5E0F000150AA4 /* ScrollableToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableToolbar.swift; sourceTree = "<group>"; };
 		C53C091529D6190800150AA4 /* WelcomeWithRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeWithRotation.swift; sourceTree = "<group>"; };
 		C5A4AC0A29DF2B1E0027E0E3 /* SpringOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptions.swift; sourceTree = "<group>"; };
+		C5B2DB4629E8694D00A63AE9 /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		C5150D7F29CBADB000A3F39F /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C5B2DB4529E8693F00A63AE9 /* Extensions */,
 				C53C091229D5CD8900150AA4 /* Info.plist */,
 				C5150D8E29CBAE5800A3F39F /* BasicAnimations */,
 				C5150D9529CDF68F00A3F39F /* AnimationTriggers */,
@@ -211,6 +214,14 @@
 				C5A4AC0A29DF2B1E0027E0E3 /* SpringOptions.swift */,
 			);
 			path = SpringAnimationsWithOptions;
+			sourceTree = "<group>";
+		};
+		C5B2DB4529E8693F00A63AE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5B2DB4629E8694D00A63AE9 /* String-Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 				C5150DA129D0EE6F00A3F39F /* TriggerOnAppear.swift in Sources */,
 				C53C090629D59CF500150AA4 /* AnimationScope.swift in Sources */,
 				C500D66029DDC4340067D8D5 /* InterpolatingSpringAnimation.swift in Sources */,
+				C5B2DB4729E8694D00A63AE9 /* String-Extension.swift in Sources */,
 				C5150D9D29D0E55100A3F39F /* TriggerStepper.swift in Sources */,
 				C5150DA529D0FA2500A3F39F /* TriggerGesturesDrag.swift in Sources */,
 				C5150D8129CBADB000A3F39F /* SwiftUIAnimationApp.swift in Sources */,
