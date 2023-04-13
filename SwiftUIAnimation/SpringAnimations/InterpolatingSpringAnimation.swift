@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Page {
+private enum Page {
     case first
     case second
     case third
